@@ -1,4 +1,4 @@
-value = int(input("Until what number do you want toe fibonacci to go?"))
+value = int(input("Until what number do you want to fibonacci to go?"))
 def fibonacci(n):
   a = 1
   b = 1
@@ -7,4 +7,6 @@ def fibonacci(n):
     c = a+b
     a = b
     b = c
+  Phi = b/a
+  print("Phi is (φ or ϕ): {}".format(Phi))
 fibonacci(value)
